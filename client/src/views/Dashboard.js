@@ -29,6 +29,7 @@ function Dashboard() {
     // start get all posts
     useEffect(() => {
         getPosts();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     let body;
     if (postsLoading) {
