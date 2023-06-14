@@ -1,7 +1,7 @@
 export const apiUrl =
     process.env.NODE_ENV !== "production"
         ? "http://localhost:5000/api"
-        : "https://radiant-anchorage-76591.herokuapp.com/api";
+        : "https://obscure-anchorage-37252.herokuapp.com/api";
 export const LOCAL_STORAGE_TOKEN_NAME = "learnIt";
 
 export const POSTS_LOADED_SUCCESS = "POSTS_LOADED_SUCCESS";
